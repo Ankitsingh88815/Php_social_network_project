@@ -2,7 +2,7 @@
 // test_mysql.php
 $host = 'localhost';
 $user = 'root';
-$pass = 'Ankit*#9555';
+$pass = ''; // put the user password here 
 
 try {
     $pdo = new PDO("mysql:host=$host", $user, $pass);
